@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,700;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {     
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --colorprimario: #4bbb2f;
+    --colorblanco: #ffffff;
+    --colornegro: #000000;
+    --colorplomo: #D9D9D9;
+    --colortrans: #00000000;
+    --colorvoscuro: #327321;
+    --colorn: #ffbf00;
+}
+
+::placeholder {
+    color: var(--colorn);
+}
+
+::selection {
+    color: var(--colorn);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--colorblanco);
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--colorblanco);
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--colornegro);
+    text-align: center;
+}
+
+h5 {
+    font-size: 17px;
+    color: var(--colorblanco);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--colornegro);
+    text-align: center;
+    justify-content: center;
+}
+
+.p-texto2 h2 {
+    text-align: center;
+    color: var(--colornegro);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-texto3 h2 {
+    text-align: center;
+    color: var(--colorprimario);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-texto3 h5 {
+    color: var(--colorprimario);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-texto3 h7 {
+    color: var(--colorprimario);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-texto4 h5 {
+    text-align: center;
+    color: var(--colornegro);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-texto1 li {
+    text-align: justify-center;
+    font-size: 12px;
+}
+
+header {
+    background-color: var(--colorblanco);
+}
+
+.menunav {
+    max-width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logotipo img {
+    width: 50px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.menu nav li {
+    list-style: none;
+}
+
+.menu nav li a {
+    text-decoration: none;
+    color: var(--colorprimario);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bt-contacto button {
+    text-decoration: none;
+    color: var(--colorprimario);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: solid 3px var(--colorprimario);
+    padding: 6px;
+    background-color: var(--colorblanco);
+}
+
+.bt-contacto button:hover {
+    color: var(--colorblanco);
+    background-color: var(--colorvoscuro);
+}
+
+.portada {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 0;
+    color: var(--colornegro);
+}
+
+.portada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.p-texto {
+    display:flex;
+    flex-direction: column;
+    gap: 25px
+
+}
+
+.p-imagen img {
+    width: 100%;
+}
+
+.p-texto {
+    background-color: var(--colorprimario);
+    border: solid 3px var(--colortrans);
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.p-imagen {
+    background-color: var(--colorprimario);
+    border: solid 20px var(--colortrans);
+    padding: 20px;
+}
+
+.Beneficios {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 0;
+    color: var(--colornegro);
+}
+
+.Beneficios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px
+
+}
+
+.Testimonios {
+    max-width: 1140px;
+    margin-right: 400px;
+    margin: 0 auto;
+    padding: 0px 0;
+    color: var(--colornegro);
+    background-color: var(--colorprimario);
+}
+
+.Testimonios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px
+
+}
+
+.p-texto2 {
+    background-color: var(--colorblanco);
+    border: solid 30px var(--colorprimario);
+    padding: 15px;
+    padding-left: 35px;
+    border-radius: 95px;
+    padding-right: 36px;
+}
+
+.Asesoria {
+    max-width: 1140px;
+    margin-right: 400px;
+    margin: 0 auto;
+    padding: 0px 0;
+    color: var(--colornegro);
+    background-color: var(--colorblanco);
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.Asesoria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px
+}
+
+.p-texto3 {
+    background-color: var(--colorblanco);
+    border: solid 50px var(--colorblanco);
+    padding: 31px;
+    padding-left: 35px;
+    padding-right: 90px;
+}
+
+.p-texto4 {
+    background-color: var(--colorplomo);
+    border: solid 50px var(--colorblanco);
+    padding: 31px;
+    padding-left: 35px;
+    border-radius: 80px;
+    padding-right: 36px;
+    gap: 30px;
+    display: flex;
+    width: 577px;
+    height: 307px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.p-texto4 input {
+    border-radius: 50px;
+    border: var(--colortrans);
+    gap: 30px;
+    padding: 15px;
+    }
+
+.input-1 input {
+    border-radius: 50px;
+    border: var(--colortrans);
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    }
+
+.input-2 input {
+    border-radius: 50px;
+    border: var(--colortrans);
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    padding-left: 60px;
+    }
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p-texto4 label {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-imagen1 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.p-texto1 {
+    background-color: var(--colorblanco);
+    border: solid 10px var(--colortrans);
+    padding: 70px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-right: -12px;
+}
+
+.p-texto1 ul {
+    list-style-position: inside;
+}
+
+.p-imagen1 {
+    background-color: var(--colorblanco);
+    border: solid 5px var(--colortrans);
+    margin: 30px;
+    margin-top: 55px;
+
+}
+
+.p-texto h1 {
+    border: solid 3px var(--colortrans);
+    text-align: center;
+}
+
+.p-texto p {
+    text-align: center;
+    color:var(--colorblanco);
+}
+
+.p-imagen h1 {
+    background-color: var(--colorblanco);
+    padding: 10px;
+}
+
+.bt-Enviar {
+    background-color:var(--colornegro);
+    padding: 8px;
+    width: 576px;
+    color: var(--colorblanco);
+    border: 0;
+    border-radius: 0px;
+}
+
+.bt-Enviar:hover {
+    color: var(--colornegro);
+    background-color:var(--colorvoscuro);
+}
+
+.formulario {
+    width: 576px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formulario input {
+    width: 80%;
+    padding: 5px;
+    color: var(--colorprimario);
+    border: var(--colortrans);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario .bt-Enviar {
+    color: var(--colorblanco);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.testimonio {
+    max-width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--colorblanco);
+}
+
+.logo {
+    max-width: 5rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.abrir-menu,
+.cerrar-menu,.logo-burguer {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .img-button {
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-burguer {
+        display: block;
+        max-width: 5rem;
+    }
+
+    .abrir-menu {
+        color: #ffffff;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: var(--colorblanco);
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        flex-direction: column;
+        align-items: end;
+        background-color: white;
+
+    }
+
+    .nav-list li a {
+        color: #000000ec;
+    }
+}
+
+
+
+
+
+
+
+
+
+
