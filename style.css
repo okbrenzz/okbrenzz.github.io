@@ -185,7 +185,6 @@ header {
 
 .p-imagen img {
     width: 100%;
-    align-items: center;
 }
 
 .bt-enviar {
@@ -215,6 +214,7 @@ header {
     padding: 5px;
     color: var(--colorprimario);
     border: var(--colortrans);
+    font-weight: 200;
 }
 
 .formulario .bt-enviar {
@@ -632,22 +632,38 @@ header {
         gap: 30px;
     }
 
-    .portada, .testimonios {
+    .portada {
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .testimonios {
         flex-direction: column;
         padding: 50px;
         align-items: center;
+        gap: 15px;
     }
+
 
     .beneficios {
         flex-direction: column;
         padding: 50px;
         align-items: center;
+        gap: 0px;
+    }
+
+    .p-imagen1 img {
+        width: 100%;
+        border-radius: 8px;
+        align-items: start;
     }
 
     .asesoria {
         flex-direction: column;
         padding: 50px;
         align-items: center;
+        gap: 0px;
 
     }
 
@@ -671,33 +687,38 @@ header {
         width: 200%;
         height: 100%;
         background-color: var(--colorblanco);
-        padding: 50px;
+        padding: 35px;
         color: var(--colorblanco);
         text-align: center;
     }
 
 
-    .p-texto2, .p-texto3 {
+    .p-texto3 {
         width: 150%;
         background-color: var(--colorblanco);
-        padding: 50px;
+        padding: 15px;
         color: var(--colorblanco);
         text-align: center;
     }
 
     .p-texto2 {
-        width: 150%;
-        height: 10%;
+        width: 130%;
+        height: 50%;
         background-color: var(--colorblanco);
         padding: 50px;
         color: var(--colorblanco);
         text-align: center;
     }
 
+    .p-texto2 h3 {
+        font-size: medium;
+
+    }
+
     .p-texto4 {
-        width: 200%;
+        width: 180%;
         background-color: var(--colorplomo);
-        padding: 50px;
+        padding: 18px;
         color: var(--colorblanco);
         text-align: center;
     }
