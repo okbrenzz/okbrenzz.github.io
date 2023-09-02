@@ -323,7 +323,7 @@ header {
     font-family: "Inter";
 }
 
-.p-texto3 {
+.p-texto3, .p-texto4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -651,10 +651,99 @@ header {
 
     }
 
+    .portada h1 {
+        font-size: 1.17em;
+    }
+
+    .portada h3 {
+        font-size: 1em;
+    }
+
+    .p-texto1 h3 {
+        font-size: 1em;
+    }
+
+    .p-texto1 li h3 {
+        font-size: 1em;
+    }
+
+    .p-texto1 {
+        width: 200%;
+        height: 100%;
+        background-color: var(--colorblanco);
+        padding: 50px;
+        color: var(--colorblanco);
+        text-align: center;
+    }
 
 
+    .p-texto2, .p-texto3 {
+        width: 150%;
+        background-color: var(--colorblanco);
+        padding: 50px;
+        color: var(--colorblanco);
+        text-align: center;
+    }
 
+    .p-texto2 {
+        width: 150%;
+        height: 10%;
+        background-color: var(--colorblanco);
+        padding: 50px;
+        color: var(--colorblanco);
+        text-align: center;
+    }
 
+    .p-texto4 {
+        width: 200%;
+        background-color: var(--colorplomo);
+        padding: 50px;
+        color: var(--colorblanco);
+        text-align: center;
+    }
+
+    .p-texto4 input {
+        border-radius: 50px;
+        border: var(--colortrans);
+        gap: 30px;
+        padding: 15px;
+        height: 307px;
+        width: 577px;
+        }
+    
+    .input-1 input, .input-2 input {
+        border-radius: 50px;
+        border: var(--colortrans);
+        padding: 8px;
+        height: 30px;
+        width: 220px;
+        padding-right: 10px;
+        padding-left: 4px;
+        }
+    
+    .formulario1 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    
+    .formulario1 input {
+        width: 100%;
+        padding: 5px;
+        color: var(--colorprimario);
+        border: var(--colortrans);
+    }
+    
+    .input-1, .input-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .input-1 label, .input-2 label {
+        color: var(--colornegro);
+    }
 
 
 }
