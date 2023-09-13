@@ -16,6 +16,7 @@
     --colortrans: #00000000;
     --colorvoscuro: #327321;
     --colorn: #ffbf00;
+    --colorvos: #156019;
 }
 
 ::placeholder {
@@ -111,7 +112,7 @@ header {
 
 .nav-li a {
     text-decoration: none;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     font-size: 18px;
     font-weight: bold;
     font-family: "Inter";
@@ -123,11 +124,11 @@ header {
 
 .bt-contacto button {
     text-decoration: none;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     font-size: 18px;
     font-weight: bold;
     border-radius: 30px;
-    border: solid 3px var(--colorprimario);
+    border: solid 3px var(--colorvos);
     padding: 6px;
     background-color: var(--colorblanco);
     font-family: "Inter";
@@ -170,7 +171,7 @@ header {
 
 .portada {
     padding: 50px 0;
-    background-color: var(--colorprimario);
+    background-color: var(--colorvos);
 }
 
 .portada {
@@ -213,7 +214,7 @@ header {
 .formulario input {
     width: 80%;
     padding: 5px;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     border: var(--colortrans);
     font-weight: 200;
 }
@@ -285,7 +286,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    background-color: var(--colorprimario);
+    background-color: var(--colorvoscuro);
     padding: 50px;
 }
 
@@ -320,7 +321,7 @@ header {
 
 .p-texto3 h3, .p-texto3 h4 {
     text-align: center;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     font-family: "Inter";
 }
 
@@ -381,7 +382,7 @@ header {
 .formulario1 input {
     width: 80%;
     padding: 5px;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     border: var(--colortrans);
 }
 
@@ -439,7 +440,7 @@ button {
 }
 
 .p-texto {
-    background-color: var(--colorprimario);
+    background-color: var(--colorvos);
     border: solid 3px var(--colortrans);
     padding-left: 0px;
 }
@@ -461,7 +462,7 @@ button {
 
 .portada {
     padding: 50px 0;
-    background-color: var(--colorprimario);
+    background-color: var(--colorvos);
 }
 
 .portada {
@@ -503,7 +504,7 @@ button {
 .formulario input {
     width: 80%;
     padding: 5px;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     border: var(--colortrans);
     font-weight: 200;
 }
@@ -526,7 +527,7 @@ button {
 
 
 .p-texto6 h2 {
-    color: #4bbb2f;
+    color: var(--colorvos);
     text-align: center;
     padding: 50px;
 }
@@ -538,7 +539,7 @@ div.p-imagen6 img {
 
 div.ptexto7 {
     text-align: center;
-    color: var(--colorprimario);
+    color: var(--colorvos);
 }
 
 .ptexto7 p {
@@ -595,7 +596,7 @@ header {
 /*quitar subrayado, cambiar el color y tamaño del texto*/
 .nav-list li a {
     text-decoration: none;
-    color: var(--colorprimario);
+    color: var(--colorvos);
     font-size: 20px;
 }
 
@@ -607,13 +608,13 @@ header {
 .portada, .testimonios {
     display: flex;
     gap: 50px;
-    background-color: var(--colorprimario);
+    background-color: var(--colorvos);
     padding: 50px;
 }
 
 .p-texto {
     width: 100%;
-    background-color: var(--colorprimario);
+    background-color: var(--colorvos);
     color: var(--colornegro);
     text-align: center;
 }
@@ -872,7 +873,7 @@ header {
     .formulario1 input {
         width: 100%;
         padding: 5px;
-        color: var(--colorprimario);
+        color: var(--colorvos);
         border: var(--colortrans);
     }
     
