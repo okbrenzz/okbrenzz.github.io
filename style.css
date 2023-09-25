@@ -276,7 +276,7 @@ header {
 }
 
 .p-imagen1 img {
-    width: 100%;
+
     border-radius: 8px;
 }
 
@@ -667,6 +667,39 @@ header {
     padding: 50px;
 }
 
+
+.p-texto8 h2 {
+    text-align: center;
+    background-color: #156019;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.p-texto8 {
+    text-align: center;
+    color: #000000;
+}
+
+a.polipriv {
+    color: var(--colorvos);
+}
+
+.p-texto9 h2 {
+    text-align: center;
+    background-color: #156019;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+div.ptexto9 p {
+    text-align: center;
+    background-color: #156019;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 50px;
+}
+
+
 /*vista tablet*/
 @media (max-width: 1023px) {
     
@@ -775,7 +808,6 @@ header {
     }
 
     .p-imagen1 img {
-        width: 100%;
         border-radius: 8px;
         align-items: start;
     }
