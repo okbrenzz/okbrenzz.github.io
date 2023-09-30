@@ -699,24 +699,41 @@ div.ptexto9 p {
     padding: 50px;
 }
 
+/*publicidaaaaaaaaaaaaaaaaaaaaaad*/
 
-/*vista tablet*/
-@media (max-width: 1023px) {
-    
-    /*estilo a mi navegación*/
-    .container {
-        margin: 0 30px;
-        padding: 50px 0;
+.ads2, .ads3 {
+    position: fixed;
+    top: 180px;
+    width: 160px;
+}
+
+.ads2 {
+    left: 60px;
+}
+
+.ads2.hiden {
+    display: none;
+}
+
+.ads3.hiden {
+    display: none;
+}
+
+
+.ads3 {
+    right: 60px;
+}
+
+.cerrar-ads, .cerrar-ads3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    & img {
+        width: 25px;
+        height: 25px;
     }
-
-    .menunav {
-        padding: 20px 0;
-    }
-
-    .portada, .beneficios, .testimonios, .asesoria {
-        padding: 50px;
-    }
-
 }
 
 /*vista mobile*/
@@ -938,6 +955,18 @@ div.ptexto9 p {
         height: 100%;
         border-radius: 8px;
         align-items: start;
+    }
+
+    .p-texto8 h2 {
+        font-size: 10px;
+    }
+
+    a.polipriv {
+        font-size: 10px;
+    }
+
+    .ads-banner {
+        display: none;
     }
 
 }
